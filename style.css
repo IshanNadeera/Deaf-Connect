@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #FFF;
 }
 
 .custom-navbar {
@@ -13,4 +14,8 @@ body {
 .navText {
     color: #fff !important;
     margin-right: 20px;
+}
+
+.section {
+    padding: 20px;
 }
