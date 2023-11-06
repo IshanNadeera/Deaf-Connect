@@ -227,6 +227,10 @@ body {
     border-radius: 10px;
 }
 
+.carouselSize {
+    height: 600px;
+}
+
 @keyframes animate {
 	0% {
 		transform: translate3d(0, 0, 0);
@@ -244,6 +248,10 @@ body {
 		border-radius: 0;
 		padding: 0;
 	}
+
+    .carouselSize {
+        height: 450px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -358,4 +366,7 @@ body {
   .main-timeline .timeline:nth-child(2n) .timeline-content:after {
     left: 65px;
   }
+  .carouselSize {
+    height: 270px;
+}
 }
