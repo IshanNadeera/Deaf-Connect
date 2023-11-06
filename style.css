@@ -209,6 +209,43 @@ body {
   border-bottom-color: #2fcea5;
 }
 
+.wrapper {
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 2.5rem;
+}
+.item {
+	animation: animate 25s alternate linear infinite;
+}
+
+.item img {
+    width: 250px;
+    border: 3px solid #0E3973;
+    margin: 10px 20px;
+    border-radius: 10px;
+}
+
+@keyframes animate {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1100px, 0, 0);
+	}
+}
+@media (max-width:767px) {
+	.slider-area h2 {
+		font-size: 30px;
+	}
+	.wrapper {
+		width: 95%;
+		border-radius: 0;
+		padding: 0;
+	}
+}
+
 @media only screen and (max-width: 1200px) {
   .main-timeline .timeline-icon:before {
     width: 50px;
